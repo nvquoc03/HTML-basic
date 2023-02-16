@@ -1,0 +1,89 @@
+/* reset margin vs padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red
+}
+
+.green {
+    border: 1px solid green
+}
+
+.banner {
+    height: 500px;
+    background: url('./banner.jpg') center center no-repeat;
+    padding: 20px;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+
+}
+
+.aboutUs,
+.signIn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.signIn {
+    margin-right: 60px;
+    margin-left: 20px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+.Logo {
+    margin-top: 10px;
+    height: 200px;
+    margin-bottom: -20px;
+    background: url('./hapoERP.png') center center no-repeat;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-start {
+    text-align: center;
+}
+
+
+
+.Banner .btn-start button {
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.Left,
+.Center,
+.Right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*  width + display: Chiều rộng con = chiều rộng cha chia 3 */
+
+span {
+    display: block;
+    font-size: 30px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
